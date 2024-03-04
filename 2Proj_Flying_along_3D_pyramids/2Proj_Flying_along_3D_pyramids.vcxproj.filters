@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="my_engine">
+      <UniqueIdentifier>{c49ff66c-6e55-4006-a8f9-6fd45ad80c2f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="..\glut_lib\glut32.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="my_engine\my_3d_camera.cpp">
+      <Filter>my_engine</Filter>
+    </ClCompile>
+    <ClCompile Include="my_engine\my_3d_object_with_color.cpp">
+      <Filter>my_engine</Filter>
+    </ClCompile>
+    <ClInclude Include="my_engine\my_3d_camera.h">
+      <Filter>my_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="my_engine\my_3d_object_with_color.h">
+      <Filter>my_engine</Filter>
+    </ClInclude>
+    <ClInclude Include="my_engine\my_3d_xyz.h">
+      <Filter>my_engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
